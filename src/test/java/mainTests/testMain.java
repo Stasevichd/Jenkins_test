@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class testMain {
 
-  @Test
+  @Test(alwaysRun = true)
   public void testSort(){
     int[] arr= {1,2,5,4};
 
